@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Order</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+        href="https://fonts.cdnfonts.com/css/amazon-ember"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+<body>
+    <div class="container container-fluid">
+        
+        <div class="row d-flex justify-content-between">
+            <div class="col-12 col-lg-8 mt-5 order-confirm">
+
+                <h4 class="mb-3">Shipping Info</h4>
+                <p><b>Name:</b> JV Logesh</p>
+                <p><b>Phone:</b> 9999 9999 99</p>
+                <p class="mb-4"><b>Address:</b> 1234, Mount road, Chennai 600068, Tamilnadu, India </p>
+                
+                <hr />
+                <h4 class="mt-4">Your Cart Items:</h4>
+
+                <hr />
+                <div class="cart-item my-1">
+                    <div class="row">
+                        <div class="col-4 col-lg-2">
+                            <img src="./images/products/1.jpg" alt="Laptop" height="45" width="65">
+                        </div>
+
+                        <div class="col-5 col-lg-6">
+                            <a href="#">OPPO F21s Pro 5G (Dawnlight Gold, 8GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers</a>
+                        </div>
+
+
+                        <div class="col-4 col-lg-4 mt-4 mt-lg-0">
+                            <p>1 x $245.67 = <b>$245.67</b></p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr />
+
+            </div>
+			
+			<div class="col-12 col-lg-3 my-4">
+                    <div id="order_summary">
+                        <h4>Order Summary</h4>
+                        <hr />
+                        <p>Subtotal:  <span class="order-summary-values">$245.67</span></p>
+                        <p>Shipping: <span class="order-summary-values">$10</span></p>
+                        <p>Tax:  <span class="order-summary-values">$0</span></p>
+
+                        <hr />
+
+                        <p>Total: <span class="order-summary-values">$255.67</span></p>
+
+                        <hr />
+                        <button id="checkout_btn" class="btn btn-primary btn-block">Proceed to Payment</button>
+                    </div>
+                </div>
+			
+			
+        </div>
+    </div>
+</body>
+</html>
